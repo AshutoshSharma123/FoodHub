@@ -1,23 +1,17 @@
 @font-face {
   font-family: 'font1';
-  src: url('src/assets/EpundaSlab-VariableFont_wght.ttf'),
-       url('src/assets/EpundaSlab-VariableFont_wght.ttf') format('woff');
+  src: url('/fonts/EpundaSlab-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
-
 }
+
 @font-face {
   font-family: 'font2';
-  src: url('src/assets/DancingScript-VariableFont_wght.ttf'),
-       url('src/assets/DancingScript-VariableFont_wght.ttf') format('woff');
+  src: url('/fonts/DancingScript-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
-
 }
+
 @font-face {
   font-family: 'font3';
-  src: url('src/assets/InterTight-VariableFont_wght.ttf'),
-       url('src/assets/InterTight-VariableFont_wght.ttf') format('woff');
+  src: url('/fonts/InterTight-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
-
 }
-
-
