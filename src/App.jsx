@@ -4,11 +4,12 @@ import Navbar from './components/Navbar.jsx'
 import logo from '../public/images/wallpaper.jpg';
 const App = () => {
   return (
-    <div className='font-[font1] w-full min-h-screen  text-black bg-cover bg-repeat bg-center bg-style p-5 '
-      style={{ backgroundImage: `url(${logo})` }}>
+    <div
+      className='font-[font1] w-full min-h-screen text-black bg-cover bg-center p-5'
+      style={{ backgroundImage: "url('/images/wallpaper.jpg')" }}
+    >
       <Navbar />
       <MainRoutes />
-
     </div>
   )
 }
